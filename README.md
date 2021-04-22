@@ -1,6 +1,6 @@
 # Miscelaneos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+Arquitectura de Angular. Módulos, Componentes, Directivas, Rutas, Ciclo de Vida, Configuraciones, etc...
 
 ## Development server
 
