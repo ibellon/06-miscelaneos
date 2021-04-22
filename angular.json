@@ -28,9 +28,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "assets/b5/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "assets/jquery/jquery-3.6.0.slim.min.js",
+              "assets/tether/tether.min.js",
+              "assets/b5/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
