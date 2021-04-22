@@ -29,11 +29,13 @@
             ],
             "styles": [
               "src/styles.css",
-              "assets/b5/css/bootstrap.min.css"
+              "assets/b5/css/bootstrap.min.css",
+              "assets/fontawesome5.15/css/fontawesome.min.css",
+              "assets/fontawesome5.15/css/all.min.css"
             ],
             "scripts": [
-              "assets/jquery/jquery-3.6.0.slim.min.js",
-              "assets/tether/tether.min.js",
+              "assets/jquery3.6/jquery-3.6.0.slim.min.js",
+              "assets/tether2.0/tether.min.js",
               "assets/b5/js/bootstrap.min.js"
             ]
           },
