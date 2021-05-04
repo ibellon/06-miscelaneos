@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnChanges, DoCheck, AfterContentInit, 
+         AfterContentChecked, AfterViewInit, AfterViewChecked,
+         OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -20,11 +22,43 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent implements OnInit, OnChanges, DoCheck, 
+AfterContentInit, AfterContentChecked, AfterViewInit, AfterViewChecked, OnDestroy {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  constructor() { 
+    console.log("Yo soy el Constructor");
   }
 
-}
+  ngOnInit(): void {
+    console.log("Yo soy el OnInit");
+  }
+  
+  ngOnChanges(): void {
+    console.log("Yo soy el OnChanges");
+  }
+
+  ngDoCheck(): void {
+    console.log("Yo soy el DoCheck");
+  }
+
+  ngAfterContentInit(): void {
+    console.log("Yo soy el AfterContentInit");
+  }
+
+  ngAfterContentChecked(): void {
+    console.log("Yo soy el AfterContentChecked");
+  }
+
+  ngAfterViewInit(): void {
+    console.log("Yo soy el AfterViewInit");
+  }
+
+  ngAfterViewChecked(): void {
+    console.log("Yo soy el AfterViewChecked");
+  }
+
+  ngOnDestroy(): void {
+    console.log("Yo soy el OnDestroy");
+  }
+
+}  
